@@ -1,2 +1,15 @@
-this is the second file
-some modification
+public static int searchbyindex2(int index)
+        {
+            int element = 0;
+            for (int i = 1; i <= mysum2; i++)
+            {
+                if (i == index)
+                {
+                    element = b[i];
+                }
+
+
+            }
+
+            return element;
+        }//end 
